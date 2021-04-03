@@ -7,6 +7,14 @@ var today = moment().format("dddd, MMMM Do");
 
 // Day Planner variable. Note time sticks to "H A" format from line 6
 var planDay = [
+	{ time: "1 AM", event: "" },
+	{ time: "2 AM", event: "" },
+	{ time: "3 AM", event: "" },
+	{ time: "4 AM", event: "" },
+	{ time: "5 AM", event: "" },
+	{ time: "6 AM", event: "" },
+	{ time: "7 AM", event: "" },
+	{ time: "8 AM", event: "" },
 	{ time: "9 AM", event: "" },
 	{ time: "10 AM", event: "" },
 	{ time: "11 AM", event: "" },
@@ -15,7 +23,11 @@ var planDay = [
 	{ time: "2 PM", event: "" },
 	{ time: "3 PM", event: "" },
 	{ time: "4 PM", event: "" },
-	{ time: "5 PM", event: "" }
+	{ time: "5 PM", event: "" },
+	{ time: "9 PM", event: "" },
+	{ time: "10 PM", event: "" },
+	{ time: "11 PM", event: "" },
+	{ time: "12 AM", event: "" }	
 ];
 
 // Checking local storage for previous saved entries (following line of code) and retrieve them (next 2 lines of code)
